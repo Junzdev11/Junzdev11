@@ -9,7 +9,7 @@ go to line 333 and 429 to change reward
 read line 390 if you want to customize correct or wrong answers output
 
 don't change credit please i know making this code is not hard as you think, but adding question is really a struggle 
-also if you change author name without a basic js knowledge the code wouldn't work
+
 
 konti palang sa anime at country aadd ko lang pag may free time
 */
@@ -516,4 +516,5 @@ onChat: async function ({ message, api, usersData, event, args, Reaction }) {
 };
 function formatText(text) {
   return text.normalize("NFD").toLowerCase();
+}
       
